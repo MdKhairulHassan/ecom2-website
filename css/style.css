@@ -1,0 +1,97 @@
+/* All Common Css Start */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+  list-style-type: none;
+}
+.container{
+  width: 1263px;
+  margin: 0 auto;
+}
+/* All Common Css End */
+
+/* header part start */
+#header_part{
+
+}
+.logo_with_menu{
+  display: flex;
+}
+.logo{
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 45%;
+}
+.menu{
+  width: 45%;
+}
+.menu ul{
+  display: flex;
+  margin-right: 50px;
+}
+.menu ul li a{
+  padding: 0 15px;
+  line-height: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+.icons{
+  padding-top: 30px;
+  width: 10%;
+}
+.icons i{
+  margin-right: 10px;
+}
+/* header part end */
+
+
+/* banner part start */
+#banner_part{
+  padding-top: 1px;
+  padding-bottom: 100px;
+  background: url(../images/Section.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_text h1{
+  font-size: 64px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 603px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.banner_text p{
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 620px;
+  margin-left: 20px;
+}
+.banner_text a{
+  padding: 35px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: #fff;
+  color: #000000;
+  margin-left: 20px;
+}
+/* banner part end */
